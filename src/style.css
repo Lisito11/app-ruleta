@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-out {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms, height 300ms;
+  }
+  
+  .fade-in {
+    animation: fadeIn 300ms;
+  }
