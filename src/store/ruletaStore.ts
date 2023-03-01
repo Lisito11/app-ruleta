@@ -1,5 +1,4 @@
 import { defineStore } from "pinia";
-import { AlertType } from '../helpers/alertType';
 import { Ruleta } from '../interfaces/ruleta';
 import { Bet } from '../interfaces/bet';
 import ruletaService from "../services/ruletaService";
