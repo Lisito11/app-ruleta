@@ -9,6 +9,6 @@ export interface Bet {
     amount?: number;
     betType?: BetType;
     userName: string;
-    ruleta: Ruleta;
+    ruleta?: Ruleta;
 }
 

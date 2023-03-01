@@ -10,7 +10,7 @@
           placeholder="Escribe tu nombre"/>
           
 
-          <div v-if="!isLogin" class="px-3" @click="login()" >
+          <div v-if="!isLogin" class="pl-3" @click="login()" >
             <button type="button" class="py-2 px-4 text-base text-white font-bold rounded-md transition duration-200 bg-gradient-to-r from-red-500 to-pink-500">
                   Ingresar
             </button>

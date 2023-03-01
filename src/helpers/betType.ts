@@ -1,6 +1,6 @@
 export enum BetType {
-    color,
-    numberColor,
+    Color,
+    NumberColor,
     ColorEven,
     ColorOdd
 }

@@ -1,9 +1,9 @@
 
 
 <template>
-<nav class=" bg-white w-full flex relative justify-between items-center mx-auto px-8 h-20 font-sans">
+<nav class=" bg-white w-full flex justify-between items-center  h-20 font-sans">
     
-  <div class="inline-flex">
+  <div class="inline-flex ml-6">
         <img src="/ruleta.png" class="h-12">
         <div class="py-1 px-3">
            <h2 class="text-4xl text-black">La Ruleta</h2>
